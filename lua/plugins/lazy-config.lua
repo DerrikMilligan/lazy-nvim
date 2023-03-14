@@ -1,7 +1,7 @@
 -- Load color shemes and tweak lazy
 return {
   -- Color schemes
-  { "ellisonleao/gruvbox.nvim" },
+  -- { "ellisonleao/gruvbox.nvim" },
 
   {
     "ray-x/aurora",
@@ -19,6 +19,11 @@ return {
     opts = {
       colorscheme = "aurora",
     },
+  },
+
+  {
+    "rcarriga/nvim-notify",
+    opts = { background_colour = "#000000" },
   },
 
   -- change trouble config
