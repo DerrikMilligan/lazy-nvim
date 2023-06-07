@@ -25,11 +25,4 @@ return {
     "rcarriga/nvim-notify",
     opts = { background_colour = "#000000" },
   },
-
-  -- change trouble config
-  -- {
-  --   "folke/trouble.nvim",
-  --   -- opts will be merged with the parent spec
-  --   opts = { use_diagnostic_signs = true },
-  -- },
 }
