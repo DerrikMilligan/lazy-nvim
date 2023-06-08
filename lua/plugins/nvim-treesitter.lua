@@ -1,3 +1,5 @@
+if true then return {} end
+
 return {
   'nvim-treesitter/nvim-treesitter',
   -- Add the phpdoc to treesitter

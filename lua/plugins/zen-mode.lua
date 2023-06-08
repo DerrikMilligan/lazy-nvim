@@ -5,6 +5,8 @@ return {
   },
   opts = {
     window = {
+      width = 0.5,
+      height = 0.8,
       options = {
         number = false,
         relativenumber = false,
