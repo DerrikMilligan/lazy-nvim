@@ -9,3 +9,4 @@ return {
     { '<leader>ar', function() require'align'.align_to_string(true, true, true) end, "x" },
   }
 }
+
