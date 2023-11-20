@@ -1,30 +1,9 @@
 -- Load color shemes and tweak lazy
 return {
-  -- Color schemes
-  -- { "ellisonleao/gruvbox.nvim" },
-
-  {
-    'uloco/bluloco.nvim',
-    -- lazy = false,
-    -- priority = 1000,
-    dependencies = { 'rktjmp/lush.nvim' },
-    config = {
-      transparent = true,
-    },
-  },
-
-  {
-    'oxfist/night-owl.nvim',
-  },
-
-  {
-    'sainnhe/edge',
-  },
-
   {
     'sainnhe/gruvbox-material',
-    lazy = false,
-    priority = 1000,
+    -- lazy = false,
+    -- priority = 1000,
     init = function ()
       vim.g["background"] = 'dark'
       vim.g["gruvbox_material_transparent_background"] = true
@@ -58,11 +37,27 @@ return {
     end,
   },
 
+  {
+    'olivercederborg/poimandres.nvim',
+    -- lazy = false,
+    -- priority = 1000,
+    opts = {
+      disable_background = true
+    },
+  },
+
+  {
+    "craftzdog/solarized-osaka.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      colorscheme = "solarized-osaka",
     },
   },
 
