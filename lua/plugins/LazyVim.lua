@@ -15,6 +15,8 @@ return {
     end
   },
 
+  { 'kepano/flexoki-neovim', name = 'flexoki' },
+
   {
     'tiagovla/tokyodark.nvim',
     -- lazy = false,
@@ -57,7 +59,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "solarized-osaka",
+      -- colorscheme = "flexoki-dark",
+      colorscheme = "aurora",
     },
   },
 
